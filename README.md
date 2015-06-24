@@ -1,2 +1,1 @@
-# alew104.github.io
-GitHub Page
+# Personal portfolio. Please do not fork.
