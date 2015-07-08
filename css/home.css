@@ -1,5 +1,7 @@
-
-
+html{
+    height: 100%;
+    min-height: 100%;
+}
 body {
     height: 100%;
     background-color: rgb(255, 255, 255);
@@ -26,6 +28,8 @@ a.darken:hover img {
 }
 
 #header {
+    position: fixed;
+    width: 30%;
     background: url("../images/headersplash.JPG") right top;
     background-attachment: fixed;
     background-repeat: repeat-x;
@@ -33,7 +37,7 @@ a.darken:hover img {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 180px;
+    height: 100%;
 }
 
 #darkcontainer{
@@ -41,21 +45,27 @@ a.darken:hover img {
     font-family: 'Palanquin', sans-serif;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
+    text-align: right;
     width: 100%;
     padding-top: 120px;
     background-color: rgba(0,0,0,0.50);
-    height: 180px;
+    height: 100%;
 }
 
 .sectionseparator {
-    width: 100%;
+    position: right relative;
+    float: right;
+    width: 70%;
     background-color: #bababa;
     height: 10px;
 
 }
 
 #portfolio{
+    width: 70%;
+    position: right;
+    z-index: -1;
+    float: right;
     padding-top: 30px;
     background-color: #EEF0F0;
     padding-bottom: 40px;
@@ -67,17 +77,18 @@ a.darken:hover img {
 }
 }
 
-#myface{
+/*#myface{
+    position: absolute;
     width: 128px;
     height: 128px;
     border-radius: 75px;
     -webkit-border-radius: 75px;
     -moz-border-radius: 75px;
-    margin-right: 72%;
-    margin-left: 28%;
-    margin-top: -100px;
-    background: url("../images/myface.png") no-repeat;
-    }
+    /*background: url("../images/myface.png") no-repeat;
+    
+    margin-right: 30%;
+    margin-left: 70%;
+    } */
 
 h2{
     font-family: 'Palanquin', sans-serif;
@@ -121,7 +132,20 @@ p.title{
 }
 
 #about{
-    width: 100%;
+    overflow: hidden;
+    width: 70%;
+    float: right;
+    color: white;
+    background-color: #363636;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#topPage{
+    overflow: hidden;
+    width: 70%;
+    float: right;
     color: white;
     background-color: #363636;
     text-align: center;
@@ -138,3 +162,9 @@ p.title{
     padding-bottom: 100px;
     text-align: center;
 }
+
+/*
+*{ 
+    border: 1px solid red; 
+}
+*/
