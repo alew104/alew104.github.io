@@ -1,0 +1,117 @@
+
+
+body {
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+a.magnify:hover img {
+    opacity: 0.7;
+}
+
+a.darken:hover img {
+    opacity: 0.7;
+
+}
+
+#header {
+    background: url("../images/headersplash.JPG") right top;
+    background-attachment: fixed;
+    background-repeat: repeat-x;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 250px;
+}
+
+#darkcontainer{
+    color: white;
+    font-family: 'Palanquin', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100%;
+    padding-top: 120px;
+    background-color: rgba(0,0,0,0.50);
+    height: 300px;
+}
+
+#portfolio{
+    padding-top: 40px;
+    background-color: #EEF0F0;
+    padding-bottom: 40px;
+}
+
+@media screen and (max-width: 1400px){
+    #myface {
+  display: none;
+    }
+}
+
+#myface{
+    width: 128px;
+    height: 128px;
+    border-radius: 75px;
+    -webkit-border-radius: 75px;
+    -moz-border-radius: 75px;
+    margin-right: 72%;
+    margin-left: 28%;
+    margin-top: -100px;
+    background: url("../images/myface.png") no-repeat;
+    }
+
+h2{
+    font-family: 'Palanquin', sans-serif;
+    text-align: center;
+}
+
+h3{
+    font-family: 'Palanquin', sans-serif;
+    text-align: center;
+}
+
+h4{
+    font-family: 'Palanquin', sans-serif;
+    text-align: center;
+}
+
+
+h5 {
+    font-family: 'Palanquin', sans-serif;
+    font-size: 1.5rem !important;
+    text-transform: uppercase;
+}
+
+h5.title {
+    margin-bottom: -3px;
+    font-size: 1.5rem !important;
+    text-transform: uppercase;
+}
+
+a.title {
+    text-decoration: none;
+}
+
+p.title{
+    margin-bottom: 10px;
+}
+
+#about{ 
+    width: 100%; 
+    color: black;
+    background-color: #FFDFCB;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px; 
+}
+
+#footer {
+    font-size: 1.6rem;
+    background-color: white;
+    color: black;
+    padding-top: 40px;
+    margin-bottom: 30px;
+    padding-bottom: 100px;
+    text-align: center;
+}
