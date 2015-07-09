@@ -167,6 +167,26 @@ p.title{
     text-align: center;
 }
 
+.header {
+color: #36A0FF;
+font-size: 27px;
+padding: 10px;
+}
+
+.bigicon {
+font-size: 35px;
+color: #36A0FF;
+}
+
+form{
+  background-color: #363636;
+}
+
+.form-group{
+  margin-left: -120px !important;
+}
+
+
 /*
 *{
     border: 1px solid red;
