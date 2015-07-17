@@ -5,6 +5,10 @@ html{
 body {
     height: 100%;
     background-color: rgb(255, 255, 255);
+    overflow: scroll !important;
+}
+.modal-open[style] {
+   padding-right: 0px !important;
 }
 
 a.darken {
