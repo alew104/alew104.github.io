@@ -21,6 +21,7 @@
 <link rel="icon"
       type="image/png"
       href="images/favicon.png">
+<script src="https://maps.googleapis.com/maps/api/js"></script>
 </head>
 <body>
     <div id = "header">
@@ -44,7 +45,7 @@
             <div class = "row">
                 <div class = "twelve columns">
                      <h4 style = "margin-top: -15px"> About me </h4>
-                     <p id = "aboutme">Hi, I'm Alex Lew and I am a UI/UX designer. I have a strong background in user centered design and am skilled in translating user research and user needs into tangible designs. I enjoy analyzing data and impacting designs through strong research and iteration in collaborative teams. I am looking to join a team that values teamwork and innovative user experiences above all else.
+                     <p id = "aboutme" style = "text-align: left;">Hi, I'm Alex Lew and I am a UI/UX designer. I have a strong background in user centered design and am skilled in translating user research and user needs into tangible designs. I enjoy analyzing data and impacting designs through strong research and iteration in collaborative teams. I am looking to join a team that values teamwork and innovative user experiences above all else.
                     </p>
                 </div>
             </div>
@@ -109,8 +110,27 @@
     <div id = "about">
         <div class = "container" style = "width: 70%;">
             <div class = "row">
-              <div class="twelve columns">
-
+              <div class = "four columns" id = "contact">
+                <h2>Contact me!</h2>
+                <dl>
+                       <dt>Location:</dt>
+                             <dd>10700 NE 4th St.</dd>
+                             <dd>Bellevue, WA 98004</dd>
+                       <dt>E-Mail:</dt>
+                             <dd>alew104@uw.edu</dd>
+                       <dt>Phone:</dt>
+                            <dd>+1 (424) 261 3014</dd>
+                       <dt> Find me on: </dt>
+                       <dd>
+                            <a href="http://www.linkedin.com/pub/alex-lew/3b/827/102" style="text-decoration:none;" target="_blank"><i class = "fa fa-linkedin-square fa-3x"></i></a>
+                            <a href="http://www.github.com/alew104" style = "text-decoration:none" target = "_blank"><i class = "fa fa-github-square fa-3x"></i></a>
+                            <a href="https://twitter.com/alew104" target="_blank" style="text-decoration:none;"><i class = "fa fa-twitter-square fa-3x"></i></a>
+                       </dd>
+               </dl>
+              </div>
+              <div class = "eight columns">
+                    <div id = "map-canvas"></div>
+			        </div>
               </div>
             </div>
           </div>
@@ -140,4 +160,23 @@
             </div> -->
 
 </body>
+<script>
+      function initialize() {
+        var myLatLng = new google.maps.LatLng(47.6103770,-122.2006790);
+        var mapCanvas = document.getElementById('map-canvas');
+        var mapOptions = {
+          center: new google.maps.LatLng(47.6103770,-122.2006790),
+          zoom: 13,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+        var map = new google.maps.Map(mapCanvas, mapOptions)
+        var iconBase = 'https://maps.google.com/mapfiles/';
+        var marker = new google.maps.Marker({
+          position: myLatLng,
+          map: map,
+          icon: iconBase + 'marker.png'
+          });
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
 </html>

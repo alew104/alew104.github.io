@@ -95,23 +95,27 @@ container-fluid{
     } */
 
 h2{
-    font-family: 'Palanquin', sans-serif;
+    font-family: 'Palanquin', sans-serif !important;
+    font-weight: 300 !important;
     text-align: center;
 }
 
 h3{
     font-family: 'Palanquin', sans-serif;
+    font-weight: 300 !important;
     text-align: center;
 }
 
 h4{
     font-family: 'Palanquin', sans-serif;
+    font-weight: 300 !important;
     text-align: center;
 }
 
 
 h5 {
     font-family: 'Palanquin', sans-serif;
+    font-weight: 300 !important;
     font-size: 1.5rem !important;
     text-transform: uppercase;
 }
@@ -132,7 +136,10 @@ p.title{
 }
 
 #aboutme{
-  text-align: left;
+  text-align: left !important;
+  font-size: 20px !important;
+  font-family: 'Palanquin', sans-serif !important;
+  font-weight: 300 !important;
 }
 
 #about{
@@ -141,7 +148,7 @@ p.title{
     float: right;
     color: white;
     background-color: #363636;
-    text-align: center;
+    text-align: left;
     padding-top: 40px;
     padding-bottom: 40px;
 }
@@ -173,19 +180,26 @@ font-size: 27px;
 padding: 10px;
 }
 
-.bigicon {
-font-size: 35px;
-color: #36A0FF;
+#contact{
+	color: white;
+  text-align: left !important;
+  font-size: 20px !important;
+  font-family: 'Palanquin', sans-serif !important;
+  font-weight: 300 !important;
 }
 
-form{
-  background-color: #363636;
+#contact h2{
+  font-size: 30px;
 }
 
-.form-group{
-  margin-left: -120px !important;
+#map-canvas {
+  width: 100%;
+  height: 400px;
 }
 
+dt{
+  padding-top: 10px;
+}
 
 /*
 *{
