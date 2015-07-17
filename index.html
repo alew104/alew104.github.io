@@ -4,15 +4,10 @@
 <head>
 <meta charset="UTF-8" />
 <title>Alex Lew</title>
-<!-- Latest compiled and minified CSS -->
+
+<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.js"></script>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-
-<!-- Optional theme -->
-<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"> -->
-
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="css/home.css" >
 <link rel="stylesheet" href="css/skeleton.css">
@@ -22,8 +17,11 @@
       type="image/png"
       href="images/favicon.png">
 <script src="https://maps.googleapis.com/maps/api/js"></script>
+
+
 </head>
 <body>
+
     <div id = "header">
                 <div id="darkcontainer">
                     <div id = "myface"><img style = "border-radius: 75px; margin-right: 50px; text-align: right; position: relative;" src="images/myface.png"></div>
@@ -60,7 +58,16 @@
 
   <!-- columns should be the immediate child of a .row -->
             <div class="row">
-            <div class="one-half column">
+              <div class="one-half column">
+                  <div class = "portfolio_item">
+                      <a data-toggle="modal" data-target="#myModal" class = "darken">
+                          <img src = "images/carmax.png"  style="max-width:100%;height:auto;">
+                      </a>
+                      <h5 class = "title">Carmax Userflow Rework</h5>
+                      <p class = "title"> INFO330 group project </p>
+                  </div>
+              </div>
+            <!-- <div class="one-half column">
                 <div class = "portfolio_item">
                     <a href = "Project1.html" class = "darken">
                         <img src = "images/carmax.png"  style="max-width:100%;height:auto;">
@@ -68,7 +75,7 @@
                     <h5 class = "title">Carmax Userflow Rework</h5>
                     <p class = "title"> INFO330 group project </p>
                 </div>
-            </div>
+            </div> -->
 
             <div class="one-half column">
                 <div class = "portfolio_item">
@@ -107,7 +114,7 @@
         </div>
     </div>
     <div class = "sectionseparator"></div>
-    <div id = "about">
+    <div id = "about" style = "padding-top: 60px !important; padding-bottom: 80px !important;">
         <div class = "container" style = "width: 70%;">
             <div class = "row">
               <div class = "four columns" id = "contact">
@@ -146,6 +153,28 @@
             </div>
         </div>
     </div>
+
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+          </div>
+          <div class="modal-body">
+            ...
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+
+
+
             <!-- <div class = "row">
                 <div class = "twelve columns">
                     <div id = "footer">
