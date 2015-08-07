@@ -205,6 +205,22 @@ dt{
   padding-top: 10px;
 }
 
+li{
+  margin-top: -10px !important;
+}
+
+.modal-body p{
+  margin-top: -20px;
+}
+
+.modal-body li{
+  margin-top: -10px;
+}
+
+.modal-body ul{
+  margin-top: -20px;
+}
+
 /*
 *{
     border: 1px solid red;
