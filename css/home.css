@@ -29,6 +29,7 @@ a.darken img {
 
 a.darken:hover img {
     opacity: 0.7;
+    cursor: pointer !important;
 }
 
 container-fluid{
@@ -220,6 +221,7 @@ li{
 .modal-body ul{
   margin-top: -20px;
 }
+
 
 /*
 *{
