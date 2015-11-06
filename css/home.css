@@ -34,12 +34,12 @@ a.darken:hover img {
 }
 
 container-fluid{
-  width: 70% !important;
+  width: 75% !important;
 }
 
 #header {
     position: fixed;
-    width: 30%;
+    width: 25%;
     background: url("../images/headersplash.JPG") right top;
     background-attachment: fixed;
     background-repeat: repeat-x;
@@ -70,12 +70,12 @@ container-fluid{
 .sectionseparator {
     background-color:#c1c1c1;
     height:1px;
-    width: 70%;
+    width: 75%;
     float: right;
 }
 
 #portfolio{
-    width: 70%;
+    width: 75%;
     position: right;
     z-index: -1;
     float: right;
@@ -154,7 +154,7 @@ p.title{
 
 #about{
     overflow: hidden;
-    width: 70%;
+    width: 75%;
     float: right;
     color: white;
     background-color: #EEF0F0;
@@ -165,7 +165,7 @@ p.title{
 
 #topPage{
     overflow: hidden;
-    width: 70%;
+    width: 75%;
     float: right;
     color: black;
     background-color: #EEF0F0;
