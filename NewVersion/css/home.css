@@ -1,0 +1,54 @@
+.navbar{
+  border: none;
+  background-color: none;
+}
+
+#navpulldown{
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding-right: 30px;
+  margin-bottom: -10px;
+}
+
+.navpadright{
+  padding-right: 30px;
+}
+
+.projectdesc{
+  padding-bottom: 50px;
+}
+
+#logo{
+  position: relative;
+  max-height: 7vw;
+  max-width: 7vw;
+  padding: 10px;
+}
+
+@media screen and (max-width: 750px){
+  #logo{
+    max-height: 50px;
+    max-width: 50px;
+  }
+}
+
+
+.readButton{
+  height: 50px;
+  width: 250px;
+  margin: 0;
+  background-image:url("../images/ButtonNotClick.svg");
+}
+
+.readButton:hover{
+  width: 250px;
+  background-image:url("../images/ButtonHover.svg");
+}
+
+.footer{
+  padding-top: 50px;
+  background-color: black;
+  height: 250px;
+}
