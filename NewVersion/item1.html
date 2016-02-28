@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <!-- bootstrap necessary files -->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+    <!-- google font -->
+    <link href='https://fonts.googleapis.com/css?family=Crimson+Text|Alegreya:400,700|Lato:100,300' rel='stylesheet' type='text/css'>
+  </head>
+
+  <style>
+    body{
+      font-family: 'Alegreya', serif;
+      background-color: white;
+    }
+
+    #hero{
+      background-image: url("images/headersplash.jpg");
+      height: 40vh;
+    }
+
+    a{
+      color: white;
+      cursor: pointer;
+    }
+
+    a:hover{
+      color: #86E5D0;
+    }
+
+    .navbar-default{
+      background: none !important;
+      border: none;
+    }
+
+    .navicon{
+      max-height: 50px;
+    }
+
+    .navbarwhite{
+      background-color: #fcfcfc;
+    }
+
+    .portimg{
+      max-height: 75px;
+    }
+
+    .navbar ul li a{
+      margin: 0px;
+      padding: 0px;
+    }
+
+    .hidetext{
+      display: none;
+    }
+
+    @media screen and (max-width: 770px){
+      .hidetext{
+        display: inline;
+        padding-left: 5px;
+      }
+
+      .navbar-default{
+        background-color: #fcfcfc !important;
+      }
+
+      .navbar ul li{
+        padding-top: 10px;
+        padding-left: 10px;
+      }
+    }
+
+    h1{
+      background-color: rgba(0,0,0,0.5);
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+  </style>
+  <header>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class = "nav navbar-nav navbar-left">
+            <li><a href="home.html"><img class = "navicon" src = "images/mgicon.png"><span class = "hidetext">About Me</span></a></li>
+            <li><a href="home.html"><img class = "navicon" src = "images/mgicon.png"><span class = "hidetext">Master Gardeners</span></a></li>
+            <li><a href="home.html"><img class = "navicon" src = "images/vizdarsicon.png"><span class = "hidetext">UW Visual DARS</span></a></li>
+            <li><a href="home.html"><img class = "navicon" src = "images/mgicon.png"><span class = "hidetext">CarMax</span></a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+  </header>
+
+
+  <body>
+    <section>
+      <div class = "container-fluid">
+        <div class = "row" id = "hero">
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class = "container" style = "background-color: white;">
+        <h1> CarMax </h1>
+        <div class = 'row'>
+          <div class = "col-md-6">
+            <h5>What is it?</h5>
+            <p>The Carmax car finder wizard is a tool that was created by a team of 4 for our UX and IA class.
+              We designed a wizard that would work alongisde the many different ways that people access information on the CarMax website.
+              The wizard fills a gap in the information architecture of the CarMax website and helps users build a list of candidate cars, as well as find similar cars to their candidates.  </p>
+          </div>
+
+          <div class = "col-md-6">
+          </div>
+        </div> <!-- row -->
+      </div> <!-- container -->
+    </section>
+  </body>
+</html>
