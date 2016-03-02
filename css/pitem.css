@@ -1,0 +1,130 @@
+body{
+  font-family: "Alegreya", serif;
+  background-color: #fcfcfc;
+  font-weight: 300;
+}
+
+#hero{
+  background-image: url("../images/mg/mgbanner.png");
+  background-position: center;
+  height: 350px;
+}
+
+a{
+  color: white;
+  cursor: pointer;
+}
+
+a:hover{
+  color: #00A6A6;
+}
+
+.navbar-default{
+  background: none !important;
+  border: none;
+}
+
+.navicon{
+  max-height: 50px;
+}
+
+.navbarwhite{
+  background-color: #fcfcfc;
+}
+
+.portimg{
+  max-height: 75px;
+}
+
+.navbar ul li a{
+  margin: 0px;
+  padding: 0px;
+}
+
+.hidetext{
+  display: none;
+}
+
+@media screen and (max-width: 770px){
+  .hidetext{
+    display: inline;
+    padding-left: 5px;
+  }
+
+  .hidetext:hover{
+    color: #00A6A6;
+  }
+
+  nav{
+    background-color: #fcfcfc;
+  }
+
+  .navbar-default{
+    background-color: #fcfcfc !important;
+  }
+
+  .navbar ul li{
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+}
+
+h1{
+  /*background-color: rgba(0,0,0,0.5);*/
+  text-align: center;
+  padding-top: 20px;
+  color: #00A6A6;
+}
+
+.separator{
+  height: 1px;
+  width: 50vw;
+  margin: auto;
+  background-color: grey;
+}
+
+.container{
+  background-color: #fcfcfc !important;
+}
+
+.desc{
+  background-color: rgba(0,0,0,0.5);
+  color: #fcfcfc;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+#footer{
+  height: 300px;
+  background-color: #fcfcfc;
+}
+
+h5{
+  text-align: center;
+  margin-left: 10px;
+}
+
+.descul{
+  padding-left: 5px;
+  text-align: center;
+  list-style: none;
+}
+
+h2 a{
+  color: #656565;
+}
+
+.desc img {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: -15px;
+}
+
+.carouselimg{
+  max-height: 500px;
+  width: 100%;
+}
+
+.glyphicon{
+  margin-top: 10px;
+}
