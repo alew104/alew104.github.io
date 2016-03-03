@@ -41,6 +41,20 @@
   </header>
 
 
+<style>
+  #hero{
+    background-image: url("../images/mg/mgbanner.png");
+    background-position: center;
+    height: 350px;
+  }
+
+  #hero2{
+    background-image: url("../images/mg/calendarphone.png");
+    background-position: center;
+    height: 350px;
+  }
+</style>
+
   <body>
     <section>
       <div class = "container-fluid">
@@ -122,7 +136,14 @@
             </p>
           </div>
         </div> <!-- row -->
-        <div class = "separator"></div>
+      </div>
+      <section>
+        <div class = "container-fluid">
+          <div class = "row" id = "hero2">
+          </div>
+        </div>
+      </section>
+      <div class = "container">
         <div class = 'row' style = "padding-top: 50px;">
           <div class = "col-md-2 col-md-offset-2">
             <h5 style = "font-size: 30px;">Preliminary Designs</h5>
@@ -130,12 +151,13 @@
 
           <div class = "col-md-6 desc">
             <p>
-              To begin our designs, we first developed a user flow and an application map. By doing this we were able to see how a typical user might go through the application and foresee any problems with the process. We also outlined some features that we wanted to make sure we touched upon.
+              To begin our designs, we first developed a user flow and an application map. By doing this we were able to see how a typical user might go through the application and foresee any problems with the process. We also outlined some features that we wanted to make sure we touched upon. To do this, we made an affinity diagram and a concept map to better understand our users.
             </p>
-            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <div id="mgcarousel" class="carousel slide" data-ride="carousel">
               <!-- Indicators -->
               <!-- Wrapper for slides -->
-              <div class="carousel-inner" role="listbox">
+              <!-- Left and right controls -->
+              <div class="carousel-inner" role="listbox" style = "padding-top: -30px;">
                 <div class="item active carouselimg">
                   <a href="../images/mg/UserFlow.png" class="fancybox" rel = "group1">
                   <img class = "center-block img-responsive" src = "../images/mg/UserFlow.png" alt = "MG User Flow">
@@ -152,17 +174,21 @@
                   </a>
                 </div>
               </div>
-            </div>
 
-              <!-- Left and right controls -->
-              <a href="#myCarousel" role="button" data-slide="prev" style = "margin-top: 10px;"> <!-- class="left carousel-control" -->
-                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a href="#myCarousel" role="button" data-slide="next" style = "margin-top: 10px;">
-                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-              </a>
+              <div style = "position: relative; left: 47.3%;">
+                <a href="#mgcarousel" role="button" data-slide="prev" style = ""> <!-- class="left carousel-control" -->
+                  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a href="#mgcarousel" role="button" data-slide="next" style = "">
+                  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            </div> <!-- carousel -->
+            <p style = "margin-top: 20px;">
+              After organizing our data, we moved to the sketching phase. We wanted to explore different ideas, so we used design studio to showcase what we had in our minds.
+            </p>
 
               <!--
               <ol class="carousel-indicators" style = "bottom: 0px; margin-top: 10px;">
@@ -171,19 +197,49 @@
                 <li data-target="#myCarousel" data-slide-to="2"></li>
                 <li data-target="#myCarousel" data-slide-to="3"></li>
               </ol>
-              -->
-
-            </div> <!-- end carousel -->
-            <p>
-            </p>
-          </div>
-        </div> <!-- row -->
-      </div> <!-- container -->
+            -->
+        </div>
+      </div><!-- row -->
+      <div class = "separator" style = "margin-top: 50px;"></div>
+      <h5 style = "font-size: 30px; margin-top: 50px; margin-bottom: 50px;">Sketches</h5>
+      <div class = "row" style = "padding-top: 50px; padding-bottom: 50px;  background-color: rgba(0,0,0,0.5);">
+        <div class = "col-md-3" style = "margin: 0px; padding: 0px;">
+          <a href = "../images/mg/IMG_0090.JPG" class = "fancybox">
+            <img class = "carouselimg" src = "../images/mg/IMG_0090.JPG">
+          </a>
+        </div>
+        <div class = "col-md-3" style = "margin: 0px; padding: 0px;">
+          <a href = "../images/mg/IMG_0091.JPG" class = "fancybox">
+            <img class = "carouselimg" src = "../images/mg/IMG_0091.JPG">
+          </a>
+        </div>
+        <div class = "col-md-3" style = "margin: 0px; padding: 0px;">
+          <a href = "../images/mg/IMG_0092.JPG" class = "fancybox">
+            <img class = "carouselimg" src = "../images/mg/IMG_0092.JPG">
+          </a>
+        </div>
+        <div class = "col-md-3" style = "margin: 0px; padding: 0px;">
+          <a href = "../images/mg/IMG_0093.JPG" class = "fancybox">
+            <img class = "carouselimg" src = "../images/mg/IMG_0093.JPG">
+          </a>
+        </div>
+      </div>
+      <h5 style = "font-size: 30px; margin-top: 50px; margin-bottom: 50px;">Sketches</h5>
+      <div class = "row">
+        <div class = "col-md-4">
+        </div>
+        <div class = "col-md-4">
+        </div>
+        <div class = "col-md-4">
+        </div>
+      </div>
+    </div><!-- container -->
     </section>
 
     <section id = "footer">
       <div class = "container-fluid">
         <div class = "row">
+
         </div>
       </div>
     </section>
