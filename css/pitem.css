@@ -134,3 +134,7 @@ h2 a{
   background-color: #333333;
   margin-top: 100px;
 }
+
+img {
+    image-orientation: from-image;
+}
