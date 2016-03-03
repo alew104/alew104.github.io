@@ -128,3 +128,9 @@ h2 a{
 .glyphicon{
   margin-top: 10px;
 }
+
+#footer{
+  height: 350px;
+  background-color: #333333;
+  margin-top: 100px;
+}
