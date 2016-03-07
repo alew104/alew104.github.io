@@ -20,7 +20,7 @@
 
   <style>
     #hero{
-      background-image: url("../images/vizdeg/vizdarsbanner.png");
+      background-image: url("../images/carmax/carmaxbanner.png");
       background-position: center;
       height: 350px;
     }
@@ -28,6 +28,17 @@
     .protoimg{
       max-width: 350px;
       height: auto;
+    }
+
+    #prototypelink {
+      background-image: url("../images/casestudynot.svg");
+      height: 50px;
+      width: 250px;
+      margin: auto;
+    }
+
+    #prototypelink:hover{
+      background-image: url("../images/casestudyhover.svg");
     }
   </style>
   <header>
@@ -62,9 +73,9 @@
       </div>
     </section>
     <section>
-      <div class = "container" style = "margin-bottom: 100px;">>
+      <div class = "container" style = "margin-bottom: 100px;">
         <h1> CarMax Information Architecture Redesign </h1>
-        <a href = "http://alew.design/mastergardeners/prototype" target = "_blank">
+        <a href = "http://alew.design/files/carmax.pdf" target = "_blank">
           <div id = "prototypelink" style = "margin-bottom: 20px; margin-top: 20px;">
           </div>
         </a>
@@ -78,8 +89,6 @@
                   <li>Wireframer</li>
                   <li>UX Designer</li>
                   <li>Information Architect</li>
-                  <li>Front-End Developer</li>
-                  <li>Back-End Developer</li>
                 </ul>
               </div>
               <div class = "col-md-4 col-xs-4">
@@ -87,18 +96,14 @@
                 <ul class = "descul">
                   <li>Balsamiq</li>
                   <li>Visio</li>
-                  <li>Angular.JS</li>
-                  <li>JSON</li>
-                  <li>Python</li>
                 </ul>
               </div>
               <div class = "col-md-4 col-xs-4">
                 <h5 style = "font-size: 30px;">Methods</h5>
                 <ul class = "descul">
                   <li>User Interviews</li>
-                  <li>Agile</li>
                   <li>Information Architecture</li>
-                  <li>Pair Programming</li>
+                  <li>Competitive Analysis</li>
                 </ul>
               </div>
             </div>
@@ -111,7 +116,7 @@
           </div>
 
           <div class = "col-md-6 desc">
-            <p>Students have a hard time deciding what classes to take at the UW. We've discovered that students have to scroll through a lot of text, use a slow degree system, and look at class requirements in order to accurately choose classes that they'll sign up for.</p>
+            <p>Students have a hard time figuring out what car to use. Carmax is also trying to increase the amount of college-aged users to use their website to find new and used cars. In doing so, they hope to drive revenue up and gain credibility amongst the younger crowd.</p>
           </div>
         </div> <!-- row -->
         <div class = 'row' style = "padding-top: 50px;">
@@ -120,7 +125,9 @@
           </div>
 
           <div class = "col-md-6 desc">
-            <p>Our visual degree planner allows you to visually see what classes are being offered, which classes are required for your major, and a list of all of the relevant classes in your major. It provides visual system status by clicking on classes and tells you how many credits you need for your major, as well as how many credits of your total that you've taken.</p>
+            <p>
+              Based on our research data and user interviews, we found that typical college age adults often had a hard time finding out what cars were available to them and whether these cars were in their budget. We also found that they were often bound by their parents budget as well, making it hard for them to decide on which car they were going to buy. By implementing a wizard, we allow college age students to circumvent the search option, and have them answer a series of questions which helps them build a candidate list of cars.
+            </p>
           </div>
         </div> <!-- row -->
         <div class = 'row' style = "padding-top: 50px;">
@@ -129,7 +136,7 @@
           </div>
 
           <div class = "col-md-6 desc">
-            <p>The visual degree planner is a combination of Angular.JS, a UW website scraper, and a few JSON objects. We combine all of this to create a master JSON object, a classes currently taken JSON object, and a major requirements JSON object. By combining all of these objects, we are able to smartly assess the classes being offered and allow users to quickly toggle their classes within their browser. No more reading too much text!</p>
+            <p>This is a proposed redesign of the CarMax website that allows for users to search for cars not only through the search bar, but also to go through a predetermined set of questions that will help narrow down their search for cars. We use a wizard to help users build a candidate list of cars, and then provide social sharing to help them get feedback on their candidate cars. This way, users can make a more informed decision about their choice in cars.</p>
           </div>
         </div> <!-- row -->
 
@@ -150,23 +157,23 @@
         <h5 style = "font-size: 30px; margin-top: 50px; margin-bottom: 50px;">Hi-Fi/Prototype</h5>
         <div class = "row">
           <div class = "col-md-4">
-            <a href = "../images/vizdeg/ver1-1.png" class = "fancybox">
-              <img class = "protoimg center-block" src = "../images/vizdeg/ver1-1.png">
+            <a href = "../images/carmax/wizardwireframe.png" class = "fancybox">
+              <img class = "protoimg center-block" src = "../images/carmax/wizardwireframe.png">
             </a>
           </div>
           <div class = "col-md-4 col-centered">
-            <a href = "../images/vizdeg/ver1-2.png" class = "fancybox">
-              <img class = "protoimg center-block" src = "../images/vizdeg/ver1-2.png">
+            <a href = "../images/carmax/research-1.png" class = "fancybox">
+              <img class = "protoimg center-block" src = "../images/carmax/research-1.png">
             </a>
           </div>
           <div class = "col-md-4">
-            <a href = "../images/vizdeg/ver1-3.png" class = "fancybox">
-              <img class = "protoimg center-block" src = "../images/vizdeg/ver1-3.png">
+            <a href = "../images/carmax/infoflow.png" class = "fancybox">
+              <img class = "protoimg center-block" src = "../images/carmax/infoflow.png">
             </a>
           </div>
         </div>
       </div><!-- container -->
-      <a href = "http://alew.design/UW-Visual-DARS/" target = "_blank">
+      <a href = "http://alew.design/files/carmax.pdf" target = "_blank">
         <div id = "prototypelink">
         </div>
       </a>
