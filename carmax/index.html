@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0" />
-    <title>CarMax Wizard</title>
+    <title>Visual DARS</title>
     <!-- bootstrap necessary files -->
     <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.js"></script>
@@ -17,6 +17,19 @@
     <!-- google font -->
     <link href='https://fonts.googleapis.com/css?family=Crimson+Text|Alegreya:400,700|Lato:100,300' rel='stylesheet' type='text/css'>
   </head>
+
+  <style>
+    #hero{
+      background-image: url("../images/vizdeg/vizdarsbanner.png");
+      background-position: center;
+      height: 350px;
+    }
+
+    .protoimg{
+      max-width: 350px;
+      height: auto;
+    }
+  </style>
   <header>
     <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container-fluid">
@@ -30,7 +43,7 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class = "nav navbar-nav navbar-left">
-            <li><a href="http://alew104.github.io/"><img class = "navicon" src = "../images/gokuicon.png"><span class = "hidetext">About Me</span></a></li>
+            <li><a href="http://alew104.github.io/"><img class = "navicon" src = "../images/eu_al_icon.png"><span class = "hidetext">About Me</span></a></li>
             <li><a href="http://alew104.github.io/mastergardeners/"><img class = "navicon" src = "../images/mgicon.png"><span class = "hidetext">Master Gardeners</span></a></li>
             <li><a href="http://alew104.github.io/vizdars/"><img class = "navicon" src = "../images/vizdarsicon.png"><span class = "hidetext">UW Visual Degree System</span></a></li>
             <li><a href="http://alew104.github.io/carmax/"><img class = "navicon" src = "../images/carmaxicon.png"><span class = "hidetext">CarMax</span></a></li>
@@ -49,9 +62,12 @@
       </div>
     </section>
     <section>
-      <div class = "container">
-        <h1> WeFlourish </h1>
-        <h2 style = "font-size: 14px; text-align: center; padding-bottom: 20px;">Collaborators: <a href = "http://www.madhatdesign.net">Peter Ogden</a>, <a href = "http://www.justinelilgert.com">Justine Lilgert</a></h2>
+      <div class = "container" style = "margin-bottom: 100px;">>
+        <h1> CarMax Information Architecture Redesign </h1>
+        <a href = "http://alew.design/mastergardeners/prototype" target = "_blank">
+          <div id = "prototypelink" style = "margin-bottom: 20px; margin-top: 20px;">
+          </div>
+        </a>
         <div class = "separator"></div>
         <div class = 'row' style = "padding-top: 50px; padding-bottom: 50px;">
           <div class = "col-md-8 col-md-offset-2">
@@ -59,28 +75,30 @@
               <div class = "col-md-4 col-xs-4">
                 <h5 style = "font-size: 30px;">Roles</h5>
                 <ul class = "descul">
-                  <li>Project Manager</li>
-                  <li>User Researcher</li>
                   <li>Wireframer</li>
-                  <li>Usability Tester</li>
+                  <li>UX Designer</li>
+                  <li>Information Architect</li>
+                  <li>Front-End Developer</li>
+                  <li>Back-End Developer</li>
                 </ul>
               </div>
               <div class = "col-md-4 col-xs-4">
                 <h5 style = "font-size: 30px;">Tools</h5>
                 <ul class = "descul">
-                  <li>Axure</li>
-                  <li>InDesign</li>
-                  <li>Photoshop</li>
-                  <li>Illustrator</li>
+                  <li>Balsamiq</li>
+                  <li>Visio</li>
+                  <li>Angular.JS</li>
+                  <li>JSON</li>
+                  <li>Python</li>
                 </ul>
               </div>
               <div class = "col-md-4 col-xs-4">
                 <h5 style = "font-size: 30px;">Methods</h5>
                 <ul class = "descul">
                   <li>User Interviews</li>
-                  <li>Design Studio</li>
                   <li>Agile</li>
-                  <li>Usability Testing</li>
+                  <li>Information Architecture</li>
+                  <li>Pair Programming</li>
                 </ul>
               </div>
             </div>
@@ -93,7 +111,16 @@
           </div>
 
           <div class = "col-md-6 desc">
-            <p>CarMax is trying to drive new users to use their website to find cars. They have found that their current users have dropped and thus want to redesign their information architecuture and site map to accomodate more users.</p>
+            <p>Students have a hard time deciding what classes to take at the UW. We've discovered that students have to scroll through a lot of text, use a slow degree system, and look at class requirements in order to accurately choose classes that they'll sign up for.</p>
+          </div>
+        </div> <!-- row -->
+        <div class = 'row' style = "padding-top: 50px;">
+          <div class = "col-md-2 col-md-offset-2">
+            <h5 style = "font-size: 30px;">The Solution</h5>
+          </div>
+
+          <div class = "col-md-6 desc">
+            <p>Our visual degree planner allows you to visually see what classes are being offered, which classes are required for your major, and a list of all of the relevant classes in your major. It provides visual system status by clicking on classes and tells you how many credits you need for your major, as well as how many credits of your total that you've taken.</p>
           </div>
         </div> <!-- row -->
         <div class = 'row' style = "padding-top: 50px;">
@@ -102,7 +129,7 @@
           </div>
 
           <div class = "col-md-6 desc">
-            <p>In this redesign, we propose that CarMax should add more social media integration, as well as offering a new path to desired results. We propose that CarMax design a wizard that will allow users to develop a candidate list of cars. Our persona, a young college student, is able to explore cars and narrow down their list of cars. We also offer social media integration so that they can share their car choices to their friends.</p>
+            <p>The visual degree planner is a combination of Angular.JS, a UW website scraper, and a few JSON objects. We combine all of this to create a master JSON object, a classes currently taken JSON object, and a major requirements JSON object. By combining all of these objects, we are able to smartly assess the classes being offered and allow users to quickly toggle their classes within their browser. No more reading too much text!</p>
           </div>
         </div> <!-- row -->
 
@@ -113,35 +140,53 @@
 
           <div class = "col-md-6 desc">
             <p>
-              As a team, we first interviewed several college students about the way they shopped for cars. As our interviews showed us, we found that college students typically didn't know that much about cars, wanted something that fit their lifestyle, and wants to be able to research cars online. We also found that they typically kept their parents concerns in mind.
-            </p>
-            <!-- Persona hypothesis here -->
-            <p>
-              After interviewing, we consolidated our data and designed a user flow and an info flow. We also looked at other competitor websites such as edmunds.com and cars.com. As we deemed that these students were typically tech-savvy, we assumed that they knew of other websites and how to research them, so we wanted to make sure our designs kept other features that other websites may have had in mind.
-            </p>
-            <!-- user flow and info flow images here. -->
-            <p>
-              Using this information, we deemed that the wizard would be the best way to lead inexperienced students into building a candidate list of cars. We designed the social media pages, the wizard process, and the final database schema that would revolve around the CarMax website.
-            </p>
-            <!-- final wireframes here -->
-          </div>
-        </div> <!-- row -->
-        <div class = 'row' style = "padding-bottom: 50px;">
-          <div class = "col-md-2 col-md-offset-2">
-            <h5 style = "font-size: 30px;">Future Iterations:</h5>
-          </div>
-
-          <div class = "col-md-6 desc">
-            <p>
+              To redesign the information architecture and design, we first wanted to pinpoint where users had the most problem. We interviewed several university students and recorded them attempting to choose a car on the current website.
+              We then looked at what competitors used and how their sites worked. I was in charge of analyzing competitor websites and designing a new user flow.
+              After my teammates finished their interviews and heuristic evaluations, I worked with them to redesign the website. I drove the idea of using a wizard to allow students to input their needs and see what cars the wizard can find.
+              In the end, I helped design the wizard wireframe according to some of our other features that we designed.
             </p>
           </div>
         </div> <!-- row -->
+        <h5 style = "font-size: 30px; margin-top: 50px; margin-bottom: 50px;">Hi-Fi/Prototype</h5>
+        <div class = "row">
+          <div class = "col-md-4">
+            <a href = "../images/vizdeg/ver1-1.png" class = "fancybox">
+              <img class = "protoimg center-block" src = "../images/vizdeg/ver1-1.png">
+            </a>
+          </div>
+          <div class = "col-md-4 col-centered">
+            <a href = "../images/vizdeg/ver1-2.png" class = "fancybox">
+              <img class = "protoimg center-block" src = "../images/vizdeg/ver1-2.png">
+            </a>
+          </div>
+          <div class = "col-md-4">
+            <a href = "../images/vizdeg/ver1-3.png" class = "fancybox">
+              <img class = "protoimg center-block" src = "../images/vizdeg/ver1-3.png">
+            </a>
+          </div>
+        </div>
+      </div><!-- container -->
+      <a href = "http://alew.design/UW-Visual-DARS/" target = "_blank">
+        <div id = "prototypelink">
+        </div>
+      </a>
       </div> <!-- container -->
     </section>
 
     <section id = "footer">
       <div class = "container-fluid">
         <div class = "row">
+          <div class = "col-md-6 col-md-offset-3">
+            <h3> SAY HELLO! </h3>
+            <img class = "center-block" id = "footerimg" src = "../images/eu_al_face.png">
+          </div>
+        </div>
+        <div class = "row">
+          <div class = "col-md-6 col-md-offset-3">
+            <p style = "text-align: center; color: white;">
+              <a href = "mailto: alew104@gmail.com"> alew104@gmail.com </a> -- <a href = "http://linkedin.com">LinkedIn</a> -- <a href = "http://github.com/alew104">Github</a> -- <a href = "../files/Lew_Resume_12-2015.pdf">Resumé</a>
+            </p>
+          </div>
         </div>
       </div>
     </section>

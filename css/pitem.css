@@ -5,12 +5,6 @@ body{
   font-size: 15px;
 }
 
-#hero{
-  background-image: url("../images/mg/mgbanner.png");
-  background-position: center;
-  height: 350px;
-}
-
 a{
   color: white;
   cursor: pointer;
