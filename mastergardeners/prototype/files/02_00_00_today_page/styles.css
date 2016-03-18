@@ -589,7 +589,7 @@
   top:246px;
   width:391px;
   height:42px;
-  font-family:'HelveticaNeue-Light', 'Helvetica Neue Thin', 'Helvetica Neue';
+  font-family:'Arial';
   font-weight:200;
   font-style:normal;
   color:#333333;
@@ -790,7 +790,7 @@
   top:127px;
   width:133px;
   height:37px;
-  font-family:'HelveticaNeue-Bold', 'Helvetica Neue Bold', 'Helvetica Neue';
+  font-family:'Arial';
   font-weight:700;
   font-style:normal;
   color:#FFFFFF;
@@ -817,11 +817,12 @@
   top:185px;
   width:295px;
   height:47px;
-  font-family:'HelveticaNeue', 'Helvetica Neue';
+  font-family:'Arial';
   font-weight:400;
   font-style:normal;
   font-size:20px;
   color:#FFFFFF;
+  text-align:left;
 }
 #u67_img {
   position:absolute;
@@ -835,5 +836,6 @@
   left:0px;
   top:0px;
   width:295px;
+  visibility:hidden;
   word-wrap:break-word;
 }

@@ -40,7 +40,7 @@
   top:540px;
   width:249px;
   height:16px;
-  font-family:'HelveticaNeue', 'Helvetica Neue';
+  font-family:'Arial';
   font-weight:400;
   font-style:normal;
   font-size:14px;
@@ -68,7 +68,7 @@
   top:262px;
   width:243px;
   height:30px;
-  font-family:'HelveticaNeue-LightItalic', 'Helvetica Neue Thin Italic', 'Helvetica Neue';
+  font-family:'Arial';
   font-weight:200;
   font-style:italic;
   color:#333333;
@@ -95,7 +95,7 @@
   top:503px;
   width:113px;
   height:24px;
-  font-family:'HelveticaNeue', 'Helvetica Neue';
+  font-family:'Arial';
   font-weight:400;
   font-style:normal;
   font-size:20px;
@@ -130,8 +130,8 @@
   top:0px;
   width:120px;
   height:30px;
-  font-family:'HelveticaNeue-Light', 'Helvetica Neue Thin', 'Helvetica Neue';
-  font-weight:200;
+  font-family:'ArialMT', 'Arial';
+  font-weight:400;
   font-style:normal;
   font-size:13px;
   text-decoration:none;
@@ -146,7 +146,7 @@
   top:437px;
   width:170px;
   height:30px;
-  font-family:'HelveticaNeue', 'Helvetica Neue';
+  font-family:'Arial';
   font-weight:400;
   font-style:normal;
   font-size:14px;
@@ -173,7 +173,7 @@
   top:192px;
   width:332px;
   height:38px;
-  font-family:'HelveticaNeue', 'Helvetica Neue';
+  font-family:'Arial';
   font-weight:400;
   font-style:normal;
   font-size:32px;
@@ -208,8 +208,8 @@
   top:0px;
   width:63px;
   height:30px;
-  font-family:'HelveticaNeue-Light', 'Helvetica Neue Thin', 'Helvetica Neue';
-  font-weight:200;
+  font-family:'ArialMT', 'Arial';
+  font-weight:400;
   font-style:normal;
   font-size:13px;
   text-decoration:none;
@@ -255,7 +255,7 @@
   top:327px;
   width:334px;
   height:24px;
-  font-family:'HelveticaNeue', 'Helvetica Neue';
+  font-family:'Arial';
   font-weight:400;
   font-style:normal;
   font-size:20px;

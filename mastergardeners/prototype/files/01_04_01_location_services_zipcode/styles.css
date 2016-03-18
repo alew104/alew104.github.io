@@ -40,7 +40,7 @@
   top:320px;
   width:243px;
   height:30px;
-  font-family:'HelveticaNeue-Light', 'Helvetica Neue Thin', 'Helvetica Neue';
+  font-family:'Arial';
   font-weight:200;
   font-style:normal;
   color:#333333;
@@ -67,7 +67,7 @@
   top:248px;
   width:264px;
   height:46px;
-  font-family:'HelveticaNeue', 'Helvetica Neue';
+  font-family:'Arial';
   font-weight:400;
   font-style:normal;
   color:#FFFFFF;
@@ -93,7 +93,7 @@
   top:378px;
   width:170px;
   height:30px;
-  font-family:'HelveticaNeue', 'Helvetica Neue';
+  font-family:'Arial';
   font-weight:400;
   font-style:normal;
   font-size:14px;
@@ -129,7 +129,7 @@
   top:192px;
   width:323px;
   height:38px;
-  font-family:'HelveticaNeue', 'Helvetica Neue';
+  font-family:'Arial';
   font-weight:400;
   font-style:normal;
   font-size:32px;
