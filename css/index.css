@@ -71,6 +71,9 @@ a:hover{
 }
 
 @media screen and (max-width: 1280px){
+  #logocont{
+    margin-right: 150px !important;
+  }
   #logo{
     float: none;
     margin-bottom: 10%;
