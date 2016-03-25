@@ -86,7 +86,7 @@ a:hover{
 
 @media screen and (max-height: 800px){
   #para{
-    margin-top: 3% !important;
+    margin-top: 0.5% !important;
   }
 }
 
