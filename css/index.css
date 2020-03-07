@@ -61,7 +61,7 @@ a:hover{
 
 #logo{
   float: right;
-  max-width: 284px;
+  max-width: 200px;
   z-index: 2;
 }
 
@@ -74,19 +74,25 @@ a:hover{
   #logocont{
     margin-right: 150px !important;
   }
+
   #logo{
     float: none;
-    margin-bottom: 10%;
   }
 
   #para{
+    margin-top: 9% !important;
     padding-bottom: 20px;
   }
 }
 
-@media screen and (max-height: 800px){
+@media screen and (max-width: 800px){
+  #intro{
+    padding-top: 20px;
+  }
+
   #para{
-    margin-top: 1.3% !important;
+    margin-top: 7% !important;
+    padding-bottom: 20px;
   }
 }
 
