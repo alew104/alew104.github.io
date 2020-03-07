@@ -1,12 +1,12 @@
 body{
-  font-family: 'Alegreya', serif;
-  background-color: #fcfcfc;
+  font-family: 'Montserrat', serif;
+  background-color: #f8f8f8;
   font-size: 15px;
 }
 #hero{
   /*background-image:linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url("images/headersplash.jpg");*/
   /**/
-  background-color: #fcfcfc;
+  background-color: #f8f8f8;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -23,7 +23,7 @@ li{
 }
 
 #intro{
-  color: white;
+  color: #f8f8f8;
 }
 
 #hello{
@@ -61,7 +61,7 @@ a:hover{
 
 #logo{
   float: right;
-  max-width: 150px;
+  max-width: 284px;
   z-index: 2;
 }
 
